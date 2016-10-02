@@ -1,23 +1,8 @@
 <html>
 <head>
 <title>Gallery Page</title>
-<style>
-        #cta{background-color: #437889;
-          padding:20px;
-          text-align: center;
-        }
-        h1{
-          color:#437889;
-        }
-        h1{
-          color:#437889;
-          font-size: 100px  
 
-        }
-      </style>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-
+<link rel="stylesheet" type="text/css" href="css/style.css">
 
 <nav>
       <p align="center">
@@ -29,12 +14,23 @@
       </p>
     
 </nav>
-<center><style>
+</head>
+<body>
+  <h1>Gallery</h1>
+  <div id="container">
+    <div id="box1" class="smallbox">alpha</div>
+    <div id="box2" class="smallbox">beta</div>  
+    <div id="box3" class="smallbox">capa</div>
+  </div>
+<br style="clear:both;">
+</body>
+
+<style>
 div.img {
     margin: 5px;
-    border: 1px solid #ccc;
+    border: 3px solid #ccc;
     float: left;
-    width: 180px;
+    width: 10em;
 }
 
 div.img:hover {
@@ -50,7 +46,9 @@ div.desc {
     padding: 15px;
     text-align: center;
 }
-</style></center>
+
+</style>
+
 </head>
 <center><h1>My Pictures</h1></center>
 <center><p>Take a look at my pics!</p></center> 
@@ -58,29 +56,34 @@ div.desc {
 
 <body>
 
-<div class="img">
+<div  class="img">
   <a href="https://en.wikipedia.org/wiki/Swordfish">
   <img src="images/swordfish.jpg" alt="Swordfish" height="300" width="200">
   <div class="desc">Swordfish</div>
 </div>
 
-<div class="img">
+<div  class="img">
   <a href="https://en.wikipedia.org/wiki/Penguin">
   <img src="images/penguin.jpg" alt="Penguin" width="300" height="200">
   <div class="desc">Penguin</div>
 </div>
 
-<div class="img">
+<div  class="img">
   <a href="https://en.wikipedia.org/wiki/Flower">
   <img src="images/flower.jpg" alt="Flower" width="300" height="200">
   <div class="desc">Flower</div>
 </div>
 
-<div class="img">
+<div  class="img">
   <a href="https://en.wikipedia.org/wiki/Sunset">
   <img src="images/sunset.jpg" alt="Sunset" width="300" height="200">
   <div class="desc">Sunset</div>
 </div>
 
+<div  class="img">
+  <a href="Background">
+  <img src="images/background.jpg" alt="Background" width="300" height="200">
+  <div class="desc">Background</div>
+</div>
 </body>
 </html>
